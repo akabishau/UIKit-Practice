@@ -9,29 +9,19 @@
 /* Begin PBXBuildFile section */
 		5B74F0DF2AF9900600CD3A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0DE2AF9900600CD3A9A /* AppDelegate.swift */; };
 		5B74F0E12AF9900600CD3A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0E02AF9900600CD3A9A /* SceneDelegate.swift */; };
-		5B74F0E32AF9900600CD3A9A /* AccountsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0E22AF9900600CD3A9A /* AccountsVC.swift */; };
+		5B74F0E32AF9900600CD3A9A /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0E22AF9900600CD3A9A /* RemindersVC.swift */; };
 		5B74F0E82AF9900700CD3A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B74F0E72AF9900700CD3A9A /* Assets.xcassets */; };
-		5B74F0F52AF997F500CD3A9A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0F42AF997F500CD3A9A /* Account.swift */; };
-		5B74F0F72AF999F000CD3A9A /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0F62AF999F000CD3A9A /* Transaction.swift */; };
-		5B74F0FE2AFA958E00CD3A9A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0FD2AFA958E00CD3A9A /* DataService.swift */; };
-		5B74F1002AFA989E00CD3A9A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0FF2AFA989E00CD3A9A /* DataManager.swift */; };
-		5B74F1032AFAA32D00CD3A9A /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F1022AFAA32D00CD3A9A /* DataError.swift */; };
-		5B74F1042AFAFA6F00CD3A9A /* accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B74F0F92AFA801E00CD3A9A /* accounts.json */; };
+		5B74F10E2AFC374F00CD3A9A /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F10D2AFC374F00CD3A9A /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B74F0DB2AF9900600CD3A9A /* TableViewFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B74F0DE2AF9900600CD3A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B74F0E02AF9900600CD3A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B74F0E22AF9900600CD3A9A /* AccountsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsVC.swift; sourceTree = "<group>"; };
+		5B74F0E22AF9900600CD3A9A /* RemindersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersVC.swift; sourceTree = "<group>"; };
 		5B74F0E72AF9900700CD3A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B74F0EC2AF9900700CD3A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B74F0F42AF997F500CD3A9A /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
-		5B74F0F62AF999F000CD3A9A /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		5B74F0F92AFA801E00CD3A9A /* accounts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = accounts.json; sourceTree = "<group>"; };
-		5B74F0FD2AFA958E00CD3A9A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		5B74F0FF2AFA989E00CD3A9A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		5B74F1022AFAA32D00CD3A9A /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		5B74F10D2AFC374F00CD3A9A /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +54,6 @@
 		5B74F0DD2AF9900600CD3A9A /* TableViewFun */ = {
 			isa = PBXGroup;
 			children = (
-				5B74F1012AFAA31E00CD3A9A /* Errors */,
-				5B74F0FB2AFA867700CD3A9A /* Services */,
-				5B74F0FA2AFA866D00CD3A9A /* Managers */,
 				5B74F0F32AF997E600CD3A9A /* Models */,
 				5B74F0FC2AFA956D00CD3A9A /* Views */,
 				5B74F0F82AF99B1100CD3A9A /* Controllers */,
@@ -78,7 +65,6 @@
 		5B74F0F22AF997B600CD3A9A /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				5B74F0F92AFA801E00CD3A9A /* accounts.json */,
 				5B74F0DE2AF9900600CD3A9A /* AppDelegate.swift */,
 				5B74F0E02AF9900600CD3A9A /* SceneDelegate.swift */,
 				5B74F0E72AF9900700CD3A9A /* Assets.xcassets */,
@@ -90,8 +76,7 @@
 		5B74F0F32AF997E600CD3A9A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5B74F0F42AF997F500CD3A9A /* Account.swift */,
-				5B74F0F62AF999F000CD3A9A /* Transaction.swift */,
+				5B74F10D2AFC374F00CD3A9A /* Reminder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,25 +84,9 @@
 		5B74F0F82AF99B1100CD3A9A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B74F0E22AF9900600CD3A9A /* AccountsVC.swift */,
+				5B74F0E22AF9900600CD3A9A /* RemindersVC.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		5B74F0FA2AFA866D00CD3A9A /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				5B74F0FF2AFA989E00CD3A9A /* DataManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		5B74F0FB2AFA867700CD3A9A /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				5B74F0FD2AFA958E00CD3A9A /* DataService.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		5B74F0FC2AFA956D00CD3A9A /* Views */ = {
@@ -125,14 +94,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		5B74F1012AFAA31E00CD3A9A /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				5B74F1022AFAA32D00CD3A9A /* DataError.swift */,
-			);
-			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +154,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B74F1042AFAFA6F00CD3A9A /* accounts.json in Resources */,
 				5B74F0E82AF9900700CD3A9A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,14 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B74F0E32AF9900600CD3A9A /* AccountsVC.swift in Sources */,
-				5B74F0F52AF997F500CD3A9A /* Account.swift in Sources */,
+				5B74F0E32AF9900600CD3A9A /* RemindersVC.swift in Sources */,
 				5B74F0DF2AF9900600CD3A9A /* AppDelegate.swift in Sources */,
-				5B74F1002AFA989E00CD3A9A /* DataManager.swift in Sources */,
-				5B74F0FE2AFA958E00CD3A9A /* DataService.swift in Sources */,
 				5B74F0E12AF9900600CD3A9A /* SceneDelegate.swift in Sources */,
-				5B74F1032AFAA32D00CD3A9A /* DataError.swift in Sources */,
-				5B74F0F72AF999F000CD3A9A /* Transaction.swift in Sources */,
+				5B74F10E2AFC374F00CD3A9A /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

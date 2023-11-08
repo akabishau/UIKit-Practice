@@ -15,9 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 	func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 		guard let windowScene = (scene as? UIWindowScene) else { return }
 		
-		let dataService: DataService = LocalDataService()
-		let dataManager = DataManager(dataService: dataService)
-		let accountsVC = AccountsVC(dataManager: dataManager)
+		let accountsVC = RemindersVC()
 		let navController = UINavigationController(rootViewController: accountsVC)
 		
 		window = UIWindow(windowScene: windowScene)
