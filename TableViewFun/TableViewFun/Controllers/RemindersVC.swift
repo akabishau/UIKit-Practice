@@ -27,8 +27,6 @@ class RemindersVC: UIViewController {
 		view.addSubview(tableView)
 		tableView.translatesAutoresizingMaskIntoConstraints = false
 		
-		
-		
 		NSLayoutConstraint.activate([
 			tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
 			tableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
@@ -36,7 +34,7 @@ class RemindersVC: UIViewController {
 			tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
 		])
 		
-		tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+		tableView.register(ReminderCell.self, forCellReuseIdentifier: ReminderCell.reuseId)
 		tableView.dataSource = self
 		tableView.delegate = self
 	}
@@ -50,9 +48,9 @@ extension RemindersVC: UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+		guard let cell = tableView.dequeueReusableCell(withIdentifier: ReminderCell.reuseId, for: indexPath) as? ReminderCell else { fatalError("Reminder Cell can't be found")}
 		let reminder = reminders[indexPath.row]
-		cell.textLabel?.text = reminder.title
+		cell.set(with: reminder)
 		return cell
 	}
 }

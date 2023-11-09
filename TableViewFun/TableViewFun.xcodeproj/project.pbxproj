@@ -12,6 +12,7 @@
 		5B74F0E32AF9900600CD3A9A /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F0E22AF9900600CD3A9A /* RemindersVC.swift */; };
 		5B74F0E82AF9900700CD3A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B74F0E72AF9900700CD3A9A /* Assets.xcassets */; };
 		5B74F10E2AFC374F00CD3A9A /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F10D2AFC374F00CD3A9A /* Reminder.swift */; };
+		5B74F1102AFD479900CD3A9A /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74F10F2AFD479900CD3A9A /* ReminderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5B74F0E72AF9900700CD3A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B74F0EC2AF9900700CD3A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B74F10D2AFC374F00CD3A9A /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		5B74F10F2AFD479900CD3A9A /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		5B74F0FC2AFA956D00CD3A9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5B74F10F2AFD479900CD3A9A /* ReminderCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B74F1102AFD479900CD3A9A /* ReminderCell.swift in Sources */,
 				5B74F0E32AF9900600CD3A9A /* RemindersVC.swift in Sources */,
 				5B74F0DF2AF9900600CD3A9A /* AppDelegate.swift in Sources */,
 				5B74F0E12AF9900600CD3A9A /* SceneDelegate.swift in Sources */,
